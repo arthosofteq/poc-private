@@ -1,0 +1,16 @@
+{
+  "name": "poc-public",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start:dev": "NODE_ENV=development SERVER_STATIC_CONTENT=1 nest start --watch"
+  },
+  "dependencies": {
+    "redisinsight": "git+https://github.com/arthosofteq/poc-public.git"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.1.2",
+    "typescript": "^4.0.5"
+  }
+}
