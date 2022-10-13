@@ -7,7 +7,7 @@
     "start:dev": "NODE_ENV=development SERVER_STATIC_CONTENT=1 nest start --watch"
   },
   "dependencies": {
-    "redisinsight": "git+https://github.com/arthosofteq/poc-public.git"
+    "redisinsight": "git+https://github.com/arthosofteq/poc-public.git#bbb"
   },
   "devDependencies": {
     "@nestjs/cli": "^9.1.2",
